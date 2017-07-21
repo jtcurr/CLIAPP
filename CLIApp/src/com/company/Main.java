@@ -25,4 +25,12 @@ public class Main {
             int finalScore = gameScore + (level * levelBonus);
         }
     }
+
+    public static void scoreCalculator(int gameScore) {
+        return -1;
+    }
+
+    public static void scoreCalculator(int levelBonus) {
+        return levelBonus;
+    }
 }
