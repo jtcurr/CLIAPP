@@ -34,17 +34,13 @@ public class Main {
         return levelBonus;
     }
 
-    public static int scoreCalculator(int changeState, int changeLevel) {
+    public static int levelCalculator(int changeState, int changeLevel) {
         if (changeState) {
             System.out.println("State changed");
         } else if (changeLevel) {
             System.out.println("Level changed");
         } else {
-            System.out.println("Done");
-        }
-
-        if (gameStatus) {
-            int finalScore = gameScore + (level * levelBonus);
+            System.out.println("Got here");
         }
     }
 }
