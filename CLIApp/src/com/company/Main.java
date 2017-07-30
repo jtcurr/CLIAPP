@@ -43,4 +43,15 @@ public class Main {
             System.out.println("Got here");
         }
     }
+    public static void levelObselete() {
+        if (!changeState) {
+            System.out.println("Level does not exist");
+        }
+    }
+    public static String levelRemove(String levelToRemove) {
+        if(levelToRemove) {
+            return null;
+        }
+    }
 }
+
