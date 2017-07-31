@@ -34,20 +34,6 @@ public class Main {
         return levelBonus;
     }
 
-    public static int levelCalculator(int changeState, int changeLevel) {
-        if (changeState) {
-            System.out.println("State changed");
-        } else if (changeLevel) {
-            System.out.println("Level changed");
-        } else {
-            System.out.println("Got here");
-        }
-    }
-    public static void levelObselete() {
-        if (!changeState) {
-            System.out.println("Level does not exist");
-        }
-    }
     public static String levelRemove(String levelToRemove) {
         if(levelToRemove) {
             return null;
